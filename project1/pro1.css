@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+
+
+  *{
+margin: 0;
+padding: 0;
+  }
+
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(85, 37, 37, 0.5)),url('./photo/pexels-annalouise-1387577.jpg');
+    color:white;
+    background-size:contain;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px
+  }
+
+  .box{
+    margin:15px
+  }
+
+
+  @media (min-width:576px){
+
+  }
+
+  @media (min-width:768px){
+  }
